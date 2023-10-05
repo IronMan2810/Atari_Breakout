@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "atari-breakout"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.26.0"
+tensorflow = "^2.14.0"
+matplotlib = "^3.8.0"
+opencv-python = "^4.8.1.78"
+baselines = "^0.1.5"
+gym = {extras = ["accept-rom-license"], version = "^0.26.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
