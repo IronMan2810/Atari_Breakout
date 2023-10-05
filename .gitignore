@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 /.venv/
+token.txt
 
 # Ignore system-generated files
 .DS_Store
